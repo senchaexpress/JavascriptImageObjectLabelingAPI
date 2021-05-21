@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html manifest="">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10, user-scalable=yes">
+	<title>ImgLabels</title>
+
+  <script type="text/javascript">
+    var Ext = Ext || {};
+    Ext.beforeLoad = function (tags) {
+      var profile;
+      profile = 'desktop';
+      Ext.manifest ='generatedFiles/' + profile;
+    };
+  </script>
+  <script src="https://cdnjs.deepai.org/deepai.min.js"></script>
+
+  <!-- The line below must be kept intact for Sencha Cmd to build your application -->
+  <script id="microloader" data-app="34338dac-ed55-4197-8f46-5038b83213c9" type="text/javascript" src="generatedFiles/bootstrap.js"></script>
+</head>
+  <body></body>
+</html>
